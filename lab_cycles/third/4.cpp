@@ -6,7 +6,7 @@ class student
     private:
         char  name[30];
         int   rollNo;
-        int   total;
+        float   total;
         float perc;
     public:
    
@@ -19,7 +19,7 @@ class student
     cout << "Enter total marks outof 500: ";
     cin >> total;
      
-    perc=(float)total/500*100;
+    perc=total/500*100;
 }
  
 
