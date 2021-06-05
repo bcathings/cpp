@@ -87,7 +87,7 @@ void display ()
     
 cout << "\nName :";
     
-puts (name);
+cout<< name;
     
 cout << "\nBalance :" << balance;
   
