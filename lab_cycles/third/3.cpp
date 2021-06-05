@@ -42,5 +42,5 @@ test :: showcount();
 t1.showcode();
 t2.showcode();
 t3.showcode();
-    
+ return 0;   
 }
