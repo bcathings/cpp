@@ -1,7 +1,6 @@
 #include<iostream>
- using namespace std;
- int main()
-{
+using namespace std;
+int main(){
    
     int N, i, j, isPrime, n;
  

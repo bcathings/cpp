@@ -1,4 +1,4 @@
-# include <iostream> 
+#include <iostream> 
 using namespace std;
 
 class student{ 
@@ -10,7 +10,7 @@ class student{
             cout<<"\nEnter the details of student:";
             cout<<"\nROLLno:";
             cin>>rn;
-            cout<<"\nclass:";a
+            cout<<"\nclass:";
             cin>>cls;
             cout<<"\nfees:";
             cin>>fees;
