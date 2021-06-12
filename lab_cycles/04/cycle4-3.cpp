@@ -6,9 +6,9 @@ class c1
     protected:
         int num1;
     public:
-        void inpu1()
+        void input1()
         {
-            cout<<"\n Enter the 1st number: ";cin>>num1
+            cout<<"\n Enter the 1st number: ";cin>>num1;
         }
         void display()
         {
@@ -43,7 +43,7 @@ int main()
         c1 c;
         Derived d;
         swap(&c, &d);
-        c1.input1();
+        c.input1();
         d.input();
         c.display();
         d.show();
