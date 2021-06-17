@@ -8,7 +8,7 @@ class Example{
             i = j;
         }
         ~Example(){
-            cout<<"Class "<<i<<" Destructor called"<<endl;
+            cout<<"Object "<<i<<" Destructor called"<<endl;
         }
 };
 int main(){

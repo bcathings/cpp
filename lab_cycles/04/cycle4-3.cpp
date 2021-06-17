@@ -9,7 +9,7 @@ class c1{
             cout<<"\n Enter the 1st number: ";cin>>num1;
         }
         void display(){
-                cout<<"\n Value of Number 1 : "<<num1;
+                cout<<"\n Value of Number 1 : "<<num1<<endl;
         }
         friend void swap(c1 *num1, Derived *num2);
 };
@@ -18,10 +18,11 @@ class Derived{
         int num2;
     public:
         void input(){
-                cout<<"\n Enter the  2nd number:";cin>>num2;
+                cout<<"\n Enter the  2nd number:";
+                cin>>num2;
         }
         void show(){
-                cout<<"\n Value of Number 2 : "<<num2;
+                cout<<" Value of Number 2 : "<<num2<<endl;
         }
         friend void swap(c1 *num1, Derived *num2);
 };

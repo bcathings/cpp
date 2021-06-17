@@ -22,10 +22,10 @@ class second{
 
 void max(first a,second b){
     if(a.x>b.y){
-        cout<<"\nGreater value is:"<<a.x;
+        cout<<"\nGreater value is:"<<a.x<<endl;
     }
     else{
-        cout<<"\nGreater value is:"<<b.y;
+        cout<<"\nGreater value is:"<<b.y<<endl;
     }
 }
 int main(){

@@ -41,6 +41,7 @@ int main() {
         m2=trans(m1,m,n);
         cout<<"\nTranspose:\n";
         m2.put(m,n);
+        cout<<endl;
     } else {
         cout<<"\nNot Possible...";
     }

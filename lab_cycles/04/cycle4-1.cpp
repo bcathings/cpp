@@ -17,6 +17,6 @@ float mean(avg m){
 int main(){
     avg m;
     m.getdata();
-    cout<<"Average = "<<mean(m);
+    cout<<"Average = "<<mean(m)<<endl;
     return 0;
 }
